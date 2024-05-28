@@ -1,7 +1,7 @@
 
 # GoGmailing
 
-<img src="GoGmailing.png />
+<img src="GoGmailing.png" />
 
 GoGmailing est un client email en ligne de commande développé en Go. Il permet aux utilisateurs d'envoyer des emails via un serveur SMTP.
 
