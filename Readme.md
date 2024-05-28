@@ -34,18 +34,3 @@ Pour envoyer un email, exécutez la commande suivante :
 ```sh
 go run main.go send --smtp "smtp.example.com" --port 587 --username "your_email@example.com" --password "yourpassword" --to "recipient@example.com" --subject "Hello" --body "This is a test email."
 ```
-
-## Structure du projet
-
-```plaintext
-GoGmailing/
-├── cmd/
-│   ├── root.go
-│   └── send.go
-├── go.mod
-└── main.go
-```
-
-- `main.go`: Point d'entrée du programme.
-- `cmd/root.go`: Définition de la commande racine.
-- `cmd/send.go`: Définition de la commande `send`.
